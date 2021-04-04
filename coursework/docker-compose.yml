@@ -1,0 +1,33 @@
+version: '3'
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+
+    ports:
+      - "8180:8180"
+
+    volumes:
+      - ./pretrained_models:/app/models
+
+    image: tommy/backend
+    
+    networks:
+      - app
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+
+    ports:
+      - "3000:3000"
+
+    image: tommy/frontend
+    
+    networks:
+      - app
+
+networks:
+  app:

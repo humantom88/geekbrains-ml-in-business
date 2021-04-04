@@ -1,0 +1,43 @@
+.App {
+  display: block;
+  position: relative;
+  padding: 0 10%;
+}
+
+
+form {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.control {
+  display: flex;
+  align-items: center;
+}
+
+.control > label {
+  position: relative;
+  display: inline-block;
+  min-width: 180px;
+}
+
+input {
+  padding: 8px 12px;
+  margin: 20px;
+}
+
+select {
+  padding: 8px 12px;
+  margin: 20px;
+}
+
+.error {
+  background-color: red;
+  color: white;
+  padding: 12px;
+  border: 1px solid #eaeaea;
+  border-radius: 12px;
+  text-align: center;
+}
