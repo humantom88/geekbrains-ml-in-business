@@ -105,9 +105,9 @@ function App() {
         <div className="control">
           <label htmlFor="embarked">Embarked</label>
           <select name="embarked">
-            <option value="S">S</option>
-            <option value="Q">Q</option>
-            <option value="C">C</option>
+            <option value="S">Southampton</option>
+            <option value="Q">Queenstown</option>
+            <option value="C">Cherbourg</option>
           </select>
         </div>
         <div className="control">
