@@ -71,7 +71,7 @@ function App() {
           <input name="age" type="number" min={0} max={150} />
         </div>
         <div className="control">
-          <label htmlFor="sibsp">Sibsp</label>
+          <label htmlFor="sibsp">Siblings / Spouses Aboard The Titanic</label>
           <select name="sibsp">
             <option value="0">0</option>
             <option value="1">1</option>
@@ -83,7 +83,7 @@ function App() {
           </select>
         </div>
         <div className="control">
-          <label htmlFor="parch">Passenger's parch</label>
+          <label htmlFor="parch">Parents / Children Aboard The Titanic</label>
           <select name="parch">
             <option value="0">0</option>
             <option value="1">1</option>
@@ -95,7 +95,7 @@ function App() {
           </select>
         </div>
         <div className="control">
-          <label htmlFor="fare">Fare</label>
+          <label htmlFor="fare">Passenger fare</label>
           <input name="fare" type="number" />
         </div>
         <div className="control">
